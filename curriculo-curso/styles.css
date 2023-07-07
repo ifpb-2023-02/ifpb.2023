@@ -9,6 +9,16 @@ body {
     background-color: #EBF1F6;
 }
 
+h2 {
+    color: #2f445f;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
 .container {
     width: 100%;
     display: flex;
@@ -122,8 +132,8 @@ body {
 .wrapper-mentions .item-mention p {
     margin-top: 1rem;
     text-align: center;
-    color: #746d6d;
-    font-weight: bold;
+    color: #252525b7;
+    font-weight: 400;
     font-size: 1rem;
 }
 .wrapper-mentions .item-mention .mention-person {
