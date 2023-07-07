@@ -8,8 +8,17 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .container > div {
     width: 60%;
     padding-top: 2rem;
+}
+.wrapper-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.wrapper-cards .item {
+    border: 1px solid #ccc;
 }
