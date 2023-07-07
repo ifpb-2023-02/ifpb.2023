@@ -17,6 +17,7 @@ h2 {
 p {
     font-size: 1rem;
     font-weight: 300;
+    text-align: justify;
 }
 
 .container {
@@ -28,7 +29,7 @@ p {
     gap: 2rem;
 }
 .container > div {
-    width: 70%;
+    width: 80%;
     padding-top: 2rem;
 }
 .wrapper-cards {
@@ -52,9 +53,11 @@ p {
     font-weight: 700;
     font-size: 1rem;
 }
+.item:nth-child(1) .item-header img {
+    background-color: #6277ec;
+}
 
 .wrapper-cards .item .item-header img {
-    background-color: red;
     border-radius: 5px;
     width: 60px;
     padding: .5rem;
@@ -108,10 +111,15 @@ p {
     border: none;
     outline: none;
     cursor: pointer;
+    transition: .3s;
 }
 .wrapper-buttons button img {
     width: 20px;
 }
+.wrapper-buttons button:hover {
+    background-color: #1976d2 ;
+}
+
 .wrapper-mentions {
     display: flex;
     align-items: center;
