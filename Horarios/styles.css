@@ -1,0 +1,41 @@
+table, th, td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+tr{
+    text-align: center;
+    height: 69px;
+}
+
+#header{
+    height: auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 75%;
+}
+
+#container{
+    justify-content: center;
+    display: flex;
+}
+
+.text1{
+    font-size: small;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.text2{
+    font-size: smaller;
+    margin: 0px;
+    color: rgb(32, 32, 32);
+}
+
+.text3{
+    font-size: smaller;
+    margin: 0px;
+    color: rgb(32, 32, 32);
+}
