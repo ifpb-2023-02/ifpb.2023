@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./data.js"></script>
     <title>Horarios</title>
 </head>
 <body>
-    <table>
+    <table id="tabela">
         <tr>
             <th>Horario</th>
             <th>Segunda</th>
@@ -52,5 +53,22 @@
             <td>17:25 - 18:15</td>
         </tr>
     </table>
+
+    <script>
+        const tabela = document.getElementById("tabela");
+        p = 0;
+        t = p % 2 != 0 ? 6 : 0;
+        window.addEventListener("load", () => {
+            for (let i = 0; i < 5; i++) {
+                for(let j = 0; j < periodos[p][i].length; j++){
+                    const node = tabela.children[0].children[j + t + 1];
+                    const td = document.createElement("td");
+                    td.innerText = materias[periodos[p][i][j]].name;
+                    node.appendChild(td);
+                }
+            }
+        });
+
+    </script>
 </body>
 </html>
