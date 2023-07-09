@@ -9,6 +9,10 @@ body {
     background-color: #EBF1F6;
 }
 
+h1 {
+    color: #265a37;
+}
+
 h2 {
     color: #2f445f;
     margin-bottom: 1rem;
@@ -160,7 +164,7 @@ p {
 }
 
 footer {
-    background-color:#252525 ;
+    background-color:#255935 ;
     color: #EBF1F6;
     display: flex;
     align-items: center;
@@ -176,4 +180,17 @@ footer div {
 }
 footer div a {
     color: #fff;
+}
+
+#logo-img {
+    width: auto;
+    height: auto;
+    max-width: 120px;
+}
+
+#logo-header {
+    width: auto;
+    height: auto;
+    max-height: 100px;
+
 }
