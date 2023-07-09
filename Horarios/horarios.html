@@ -8,21 +8,29 @@
     <title>Horarios</title>
 </head>
 <body>
+    <header>
+        <img src="https://www.ifpb.edu.br/imagens/logos/campus-cajazeiras/@@images/image.png" alt="logo-header">
+        <div>
+            <p>Horário Acadêmico</p>
+            <p>Semestre: 2023.1</p>
+        </div>
+    </header>
+
+    
     <div id="container">
         <div>
             <label for="periodo">Período:</label>
             <select name="periodo" id="periodo" onchange="updateTable()">
-                <option value="0">1</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-                <option value="4">5</option>
-                <option value="5">6</option>
+                <option value="0">1º</option>
+                <option value="1">2º</option>
+                <option value="2">3º</option>
+                <option value="3">4º</option>
+                <option value="4">5º</option>
+                <option value="5">6º</option>
             </select>
         </div>
-
         <table id="tabela">
-            <tr id="header">
+            <tr id="tableHeader">
                 <th>Horario</th>
                 <th>Segunda</th>
                 <th>Terça</th>

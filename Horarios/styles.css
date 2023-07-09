@@ -8,8 +8,9 @@ tr{
     height: 69px;
 }
 
-#header{
+#tableHeader{
     height: auto;
+    background-color: rgba(158,255,152,1);
 }
 
 table{
@@ -20,6 +21,8 @@ table{
 #container{
     justify-content: center;
     display: flex;
+    width: 100%;
+    padding-top: 10px;
 }
 
 .text1{
@@ -38,4 +41,28 @@ table{
     font-size: smaller;
     margin: 0px;
     color: rgb(32, 32, 32);
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(158,255,152,1) 100%);
+}
+
+header img{
+    height: inherit;
+    width: auto;
+}
+
+header p{
+    font-size: larger;
+    font-weight: bold;
+}
+
+body{
+    margin-top: 0px;
 }
