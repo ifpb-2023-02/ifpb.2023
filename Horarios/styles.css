@@ -1,0 +1,70 @@
+table, th, td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+tr{
+    text-align: center;
+    height: 69px;
+}
+
+#tableHeader{
+    height: auto;
+    background-color: rgba(158,255,152,1);
+    font-family: 'hind', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 75%;
+}
+
+#container{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.text1{
+    font-size: small;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.text2{
+    font-size: smaller;
+    margin: 0px;
+    color: rgb(32, 32, 32);
+}
+
+.text3{
+    font-size: smaller;
+    margin: 0px;
+    color: rgb(32, 32, 32);
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(158,255,152,1) 100%);
+}
+
+header img{
+    height: inherit;
+    width: auto;
+}
+
+header p{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin-top: 0px;
+}
