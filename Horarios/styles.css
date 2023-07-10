@@ -54,6 +54,10 @@ header {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(158,255,152,1) 100%);
 }
 
+header a {
+    color: black;
+}
+
 header img{
     height: inherit;
     width: auto;
